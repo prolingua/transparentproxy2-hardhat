@@ -12,7 +12,5 @@ async function main() {
     const myProxyAdmin = await ethers.getContractAt("MyProxyAdmin", MYPROXYADMIN_ADDRESS);
     await myProxyAdmin.upgrade(MYPROXY_ADDRESS, boxV2.address);
     console.log("Upgraded to BoxV2");
-
-    
 }
 main();
