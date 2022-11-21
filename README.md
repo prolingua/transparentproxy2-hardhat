@@ -7,8 +7,8 @@ npx hardhat verify  --constructor-args scripts/arguments.js --contract contracts
 
 
 + sample of deployed addresses:
-MyProxyAdmin:   0xF236D14e9D47941424449e6bF3AcbD2C596719b3
-Box:            0x73ff7AF00db0a83E98C29EC8117Ec17063e4FA32
-MyProxy:        0x1496d2F9FD4D40bfD962Bb3f4E00ebEAC91B3DEc
-BoxV2:          0x22F7608A78491a3B2C2b88646c86Ce0D5125b2cc
+
+MyProxyAdmin deployed to:  0x2bD4e797b788E5318Ce86E47025C610D0Fa88076
+Box deployed to:  0xde3Ff0AaFFB06ba2047a1756640D87184d70DA71
+MyProxy deployed to:  0x54D5580C1bd1cA8Cf4B7dd1FE6F8ec6146F2Dd28
 
