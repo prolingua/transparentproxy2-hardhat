@@ -1,7 +1,7 @@
 # transparentproxy2-hardhat
 + install dependencies: npm install
 + compile: npx hardhat compile
-+ deploy Box, MyProxyAdmin, MyProxy: npm hardhat run scripts/initial_deploy.js --network testnet
++ deploy Box, MyProxyAdmin, MyProxy: npx hardhat run scripts/initial_deploy.js --network testnet
 + upgrade to BoxV2: npm hardhat run scripts/upgrades.js --network testnet
 + verify MyProxyAdmin: npx hardhat verify  --contract contracts/MyProxyAdmin.sol:MyProxyAdmin  --network testnet {address of MyProxyAdmin}
 + verify Box: npx hardhat verify  --contract contracts/Box.sol:Box  --network testnet {address of Box}
